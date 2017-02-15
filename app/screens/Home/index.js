@@ -5,7 +5,7 @@ export default class Home extends Component {
     e.preventDefault();
     this.context.router.push({pathname: `/${this._input.value}`});
   }
-
+ 
   render() {
     return (
       <section className="container home">
